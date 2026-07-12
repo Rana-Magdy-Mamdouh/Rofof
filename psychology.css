@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 @font-face {
     font-family: Aldhabi;
@@ -16,15 +17,22 @@ body {
 }
 .nav{
     font-style:oblique;
+    font-family: Aldhabi;
+    color: rgb(226, 207, 167);
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 80px;
 }
 
 #nav {
     width: 100%;
     position: sticky;
     background-color:#556b2f;
-    height: 80px;
+    height: 100px;
     color:whitesmoke;
-    padding: 30px;
+    padding: 20px;
     top: 0;
     width: 100%;
 }
