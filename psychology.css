@@ -8,17 +8,18 @@
     src: url("fonts/alfont_com_AlFont_com_4_30.ttf");
 }
 body {
-    background-color:whitesmoke;
+    background-color:rgb(241, 240, 231);
     margin: 0;
     padding: 0;
     min-height: 100vh;
     direction: rtl;
     text-align: right;
 }
+   
 .nav{
     font-style:oblique;
     font-family: Aldhabi;
-    color: rgb(226, 207, 167);
+    color:rgb(241, 240, 231);
     font-size: 80px;
     display: flex;
     align-items: center;
@@ -29,9 +30,9 @@ body {
 #nav {
     width: 100%;
     position: sticky;
-    background-color:rgb(85, 107, 47);
+    background-color:rgb(49, 63, 32);
     height: 100px;
-    color:whitesmoke;
+    color:rgb(241, 240, 231);;
     padding: 20px;
     top: 0;
     width: 100%;
@@ -42,7 +43,7 @@ body {
     font-family: Aldhabi;
     font-size: 80px;
     text-align: center;
-    color:#556b2f;
+    color:rgb(49, 63, 32);
 }
 
 #books img{
@@ -51,17 +52,15 @@ body {
     height: 500px;
     padding: 20px;
     border-radius: 20px;
-    background-color:rgba(173, 230, 82, 0.4);;
-
 }
-
-
+.section1{display:flex;}
+.section1 div{width:25%;}
 
 
 .footer {
     width: 100%;
     display: block;
-    background-color:rgb(51, 35, 1);
+    background-color:rgb(49, 63, 32);
     color:rgb(226, 207, 167);
     margin-top: 50px;
     flex: 1;
