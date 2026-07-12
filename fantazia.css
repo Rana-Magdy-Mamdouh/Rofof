@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color:rgb(226, 207, 167);
+    background-color:rgb(245,245,245);
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -20,7 +20,7 @@ body {
 .nav {
     font-style: oblique;
     font-family: Aldhabi;
-    color: rgb(226, 207, 167);
+    color: rgb(245,245,245);
     font-size: 80px;
     display: flex;
     align-items: center;
@@ -31,9 +31,9 @@ body {
 #nav {
     width: 100%;
     position: sticky;
-    background-color: rgb(51, 35, 1);
+    background-color: rgb(85, 107, 47);
     height: 100px;
-    color:rgb(226, 207, 167);
+    color:rgb(245,245,245);
     padding: 20px;
     top: 0;
     width: 100%;
@@ -49,8 +49,8 @@ body {
 .footer {
     width: 100%;
     display: block;
-    background-color:rgb(51, 35, 1);
-    color:rgb(226, 207, 167);
+    background-color:rgb(85, 107, 47);
+    color:rgb(245,245,245);
     margin-top: 50px;
     flex: 1;
     text-align: center;
@@ -62,7 +62,7 @@ body {
     font-family: Aldhabi;
     font-size: 80px;
     text-align: center;
-    color: rgb(51, 35, 1);
+    color: rgb(85, 107, 47);
 }
 .cards{
     display: flex;
@@ -74,17 +74,17 @@ body {
 }
 .book-card{
     width: 350px;
-    background-color: rgb(190, 171, 131);
-    color: rgb(51, 35, 1);
-    border: 1px solid rgb(226, 207, 167);
+    background-color: rgb(134, 163, 86);
+    color: rgb(245,245,245);
+    border: 1px solid rgb(134, 163, 86);
     padding: 20px;
     text-align: center;
     border-radius: 12px;
 
 }
 .book-card:hover{
-    box-shadow: 0 10px 20px rgba(51, 35, 1, 0.269);
-    border-color: rgba(51, 35, 1, 0.276);
+    box-shadow: 0 10px 20px rgba(85, 107, 47, 0.578);
+    border-color: rgba(85, 107, 47, 0.578);
 
 }
 .book-card:hover{
