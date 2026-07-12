@@ -1,35 +1,47 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color:#BEA8A7;
+    background-color:rgb(245,245,245);
+    margin: 0;
+    padding: 0;
     min-height: 100vh;
+    direction: rtl;
+    text-align: right;
+}
+@font-face {
+    font-family: Aldhabi;
+    src: url("fonts/alfont_com_AlFont_com_4_30.ttf");
 }
 
+.nav {
+    font-style: oblique;
+    font-family: Aldhabi;
+    color: rgb(245,245,245);
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 80px;
 
+
+}
 #nav {
     width: 100%;
     position: sticky;
-    background-color: #2a0800;
-    height: 80px;
-    color: #f4dbd8;
-    padding: 30px;
+    background-color: rgb(17, 50, 25);
+    height: 100px;
+    color:rgb(245,245,245);
+    padding: 20px;
     top: 0;
     width: 100%;
     z-index: 100;
 }
 
-.img1 {
 
-    height: 80px;
-    align-items: center;
-    justify-content: flex-end;
-    display: flex;
-    padding-top: 15px;
-
-}
 
 #ph {
     align-items: center;
@@ -38,11 +50,13 @@ body {
 
 .footer {
     width: 100%;
-    background-color: #2a0800;
-    color: #f4dbd8;
+    display: block;
+    background-color:rgb(17, 50, 25);
+    color:rgb(245,245,245);
     margin-top: 50px;
-    padding: 40px 0px 20px;
     flex: 1;
     text-align: center;
-
+    padding: 30px;
+    top: 20px;
+    width: 100%;
 }
