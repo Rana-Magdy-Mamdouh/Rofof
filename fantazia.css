@@ -32,7 +32,7 @@ body {
 #nav {
     width: 100%;
     position: sticky;
-    background-color: rgb(85, 107, 47);
+    background-color: rgb(17, 50, 25);
     height: 100px;
     color:rgb(245,245,245);
     padding: 20px;
@@ -51,7 +51,7 @@ body {
 .footer {
     width: 100%;
     display: block;
-    background-color:rgb(85, 107, 47);
+    background-color:rgb(17, 50, 25);
     color:rgb(245,245,245);
     margin-top: 50px;
     flex: 1;
@@ -64,7 +64,7 @@ body {
     font-family: Aldhabi;
     font-size: 80px;
     text-align: center;
-    color: rgb(85, 107, 47);
+    color: rgb(17, 50, 25);
 }
 .cards{
     display: flex;
@@ -76,9 +76,9 @@ body {
 }
 .book-card{
     width: 350px;
-    background-color: rgb(134, 163, 86);
+    background-color: rgb(122, 170, 134);
     color: rgb(245,245,245);
-    border: 1px solid rgb(134, 163, 86);
+    border: 1px solid rgb(144, 194, 156);
     padding: 20px;
     text-align: center;
     border-radius: 12px;
