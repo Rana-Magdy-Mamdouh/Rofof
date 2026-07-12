@@ -1,27 +1,29 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color:rgb(226, 207, 167);
+    background-color: rgb(226, 207, 167);
     margin: 0;
     padding: 0;
     min-height: 100vh;
     direction: rtl;
     text-align: right;
 }
-.nav{
-    font-style:oblique;
+
+.nav {
+    font-style: oblique;
 }
 
 #nav {
     background-color: rgb(51, 35, 1);
     height: 80px;
-    color:rgb(226, 207, 167);
+    color: rgb(226, 207, 167);
     padding: 30px;
     top: 0;
-    width:100%;
+    width: 100%;
 }
 
 
@@ -40,8 +42,8 @@ body {
 .footer {
     width: 100%;
     display: block;
-    background-color:rgb(51, 35, 1);
-    color:rgb(226, 207, 167);
+    background-color: rgb(51, 35, 1);
+    color: rgb(226, 207, 167);
     margin-top: 60%;
     flex: 1;
     text-align: center;
