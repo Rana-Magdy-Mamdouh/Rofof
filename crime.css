@@ -3,22 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: Aldhabi;
     src: url("fonts/alfont_com_AlFont_com_4_30.ttf");
 }
+
 body {
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     margin: 0;
     padding: 0;
     min-height: 100vh;
     direction: rtl;
     text-align: right;
 }
-.nav{
-    font-style:oblique;
+
+.nav {
+    font-style: oblique;
     font-family: Aldhabi;
-    color:  whitesmoke;
+    color: whitesmoke;
     font-size: 80px;
     display: flex;
     align-items: center;
@@ -27,26 +30,28 @@ body {
 }
 
 #nav {
-    
+
     position: sticky;
-    background-color:#2F3E2F;
+    background-color: #2F3E2F;
     height: 100px;
-    color:whitesmoke;
+    color: whitesmoke;
     padding: 20px;
     top: 0;
     width: 100%;
 }
-#title{
+
+#title {
     font-family: Aldhabi;
     font-size: 80px;
     text-align: center;
     color: #2F3E2F;
 }
+
 .footer {
-     
+
     display: block;
     background-color: #2F3E2F;
-    color:whitesmoke ;
+    color: whitesmoke;
     margin-top: 500px;
     flex: 1;
     text-align: center;
