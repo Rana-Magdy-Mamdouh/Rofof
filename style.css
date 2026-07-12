@@ -12,8 +12,17 @@ body {
     text-align: right;
 }
 
+@font-face {
+    font-family: Aldhabi;
+    src: url("fonts/alfont_com_AlFont_com_4_30.ttf");
+}
+
 .nav {
     font-style: oblique;
+    font-family: Aldhabi;
+    color: rgb(226, 207, 167);
+    font-size: 80px;
+
 }
 
 #nav {
