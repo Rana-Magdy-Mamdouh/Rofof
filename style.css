@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -22,6 +23,10 @@ body {
     font-family: Aldhabi;
     color: rgb(226, 207, 167);
     font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 80px;
 
 }
 

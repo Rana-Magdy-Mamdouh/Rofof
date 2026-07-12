@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,10 +12,22 @@ body {
     direction: rtl;
     text-align: right;
 }
-.nav{
-    font-style:oblique;
+@font-face {
+    font-family: Aldhabi;
+    src: url("fonts/alfont_com_AlFont_com_4_30.ttf");
 }
 
+.nav {
+    font-style: oblique;
+    font-family: Aldhabi;
+    color: rgb(226, 207, 167);
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 80px;
+
+}
 #nav {
     width: 100%;
     position: sticky;
@@ -26,15 +39,7 @@ body {
     width: 100%;
 }
 
-.img1 {
 
-    height: 80px;
-    align-items: center;
-    justify-content: flex-end;
-    display: flex;
-    padding-top: 15px;
-
-}
 
 #ph {
     align-items: center;
@@ -52,4 +57,10 @@ body {
     padding: 30px;
     top: 20px;
     width: 100%;
+}
+.fantazia{
+    font-family: Aldhabi;
+    font-size: 80px;
+    text-align: center;
+    color: rgb(51, 35, 1);
 }
