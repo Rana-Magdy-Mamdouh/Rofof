@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Aldhabi;
+    src: url("fonts/alfont_com_AlFont_com_4_30.ttf");
+}
+body {
+    background-color:whitesmoke;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    direction: rtl;
+    text-align: right;
+}
+.nav{
+    font-style:oblique;
+    font-family: Aldhabi;
+    color:  whitesmoke;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 80px;
+}
+
+#nav {
+    
+    position: sticky;
+    background-color:#556b2f;
+    height: 100px;
+    color:whitesmoke;
+    padding: 20px;
+    top: 0;
+    width: 100%;
+}
+#title{
+    font-family: Aldhabi;
+    font-size: 80px;
+    text-align: center;
+    color:#556b2f;
+}
+.footer {
+     
+    display: block;
+    background-color: #556b2f;
+    color:whitesmoke ;
+    margin-top: 500px;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    top: 20px;
+    width: 100%;
+}

@@ -1,42 +1,21 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(226, 207, 167);
-    margin: 0;
-    padding: 0;
+    background-color:#BEA8A7;
     min-height: 100vh;
-    direction: rtl;
-    text-align: right;
 }
 
-@font-face {
-    font-family: Aldhabi;
-    src: url("fonts/alfont_com_AlFont_com_4_30.ttf");
-}
-
-.nav {
-    font-style: oblique;
-    font-family: Aldhabi;
-    color: rgb(226, 207, 167);
-    font-size: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    height: 80px;
-
-}
 
 #nav {
     width: 100%;
     position: sticky;
-    background-color: rgb(51, 35, 1);
-    height: 100px;
+    background-color: #2a0800;
+    height: 80px;
     color: #f4dbd8;
-    padding: 20px;
+    padding: 30px;
     top: 0;
     width: 100%;
 }
@@ -58,13 +37,11 @@ body {
 
 .footer {
     width: 100%;
-    display: block;
-    background-color: rgb(51, 35, 1);
-    color: rgb(226, 207, 167);
+    background-color: #2a0800;
+    color: #f4dbd8;
     margin-top: 50px;
+    padding: 40px 0px 20px;
     flex: 1;
     text-align: center;
-    padding: 30px;
-    top: 20px;
-    width: 100%;
+
 }
