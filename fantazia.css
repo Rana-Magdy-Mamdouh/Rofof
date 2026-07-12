@@ -32,9 +32,9 @@ body {
     width: 100%;
     position: sticky;
     background-color: rgb(51, 35, 1);
-    height: 80px;
+    height: 100px;
     color:rgb(226, 207, 167);
-    padding: 30px;
+    padding: 20px;
     top: 0;
     width: 100%;
 }
