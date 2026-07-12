@@ -27,6 +27,7 @@ body {
     justify-content: flex-start;
     height: 80px;
 
+
 }
 #nav {
     width: 100%;
@@ -37,6 +38,7 @@ body {
     padding: 20px;
     top: 0;
     width: 100%;
+    z-index: 100;
 }
 
 
