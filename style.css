@@ -19,7 +19,7 @@ body {
 #nav {
     width: 100%;
     position: sticky;
-    background-color: #2a0800;
+    background-color: rgb(51, 35, 1);
     height: 80px;
     color: #f4dbd8;
     padding: 30px;
