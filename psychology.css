@@ -29,12 +29,13 @@ body {
 #nav {
     width: 100%;
     position: sticky;
-    background-color:#556b2f;
+    background-color:rgb(85, 107, 47);
     height: 100px;
     color:whitesmoke;
     padding: 20px;
     top: 0;
     width: 100%;
+    z-index: 100;
 }
 
 #title{
