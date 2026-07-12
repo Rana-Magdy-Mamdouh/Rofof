@@ -29,7 +29,7 @@ body {
 #nav {
     
     position: sticky;
-    background-color:#556b2f;
+    background-color:#3F4A2E;
     height: 100px;
     color:whitesmoke;
     padding: 20px;
@@ -40,7 +40,7 @@ body {
     font-family: Aldhabi;
     font-size: 80px;
     text-align: center;
-    color:#556b2f;
+    color:#3F4A2E;
 }
 .footer {
      
