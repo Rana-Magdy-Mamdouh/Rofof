@@ -4,21 +4,17 @@
 }
 
 body {
-    background-color:rgb(226, 207, 167);
+    background-color: #f4dbd8;
     min-height: 100vh;
-    direction: rtl;
-    text-align: right;
 }
-h1{
-    font-style:oblique;
-}
+
 
 #nav {
     width: 100%;
     position: sticky;
-    background-color: rgb(51, 35, 1);
+    background-color: #2a0800;
     height: 80px;
-    color:rgb(226, 207, 167);
+    color: #f4dbd8;
     padding: 30px;
     top: 0;
     width: 100%;
@@ -41,8 +37,8 @@ h1{
 
 .footer {
     width: 100%;
-    background-color:rgb(51, 35, 1);
-    color:rgb(226, 207, 167);
+    background-color: #2a0800;
+    color: #f4dbd8;
     margin-top: 50px;
     padding: 40px 0px 20px;
     flex: 1;
