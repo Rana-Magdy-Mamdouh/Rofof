@@ -96,11 +96,12 @@ body {
     align-items: center;
 
 }
-.title{
-      font-family: Aldhabi;
+
+.title {
+    font-family: Aldhabi;
     font-size: 80px;
     text-align: center;
-    color:rgb(17, 50, 25);
+    color: rgb(17, 50, 25);
 }
 
 .footer {
@@ -119,7 +120,7 @@ body {
 @media (max-width: 768px) {
 
     #nav {
-        position: static;
+        position: sticky;
         height: auto;
         flex-direction: column;
         align-items: center;

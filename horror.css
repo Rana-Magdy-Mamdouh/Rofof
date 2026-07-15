@@ -170,7 +170,7 @@ h3 {
 @media (max-width: 768px) {
 
     #nav {
-        position: static;
+        position: sticky;
         height: auto;
         flex-direction: column;
         align-items: center;
