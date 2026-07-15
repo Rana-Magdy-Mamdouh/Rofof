@@ -125,8 +125,23 @@ body {
     transition: all 0.3s ease; 
 
 }
+h3 {
+    font-size: 25px;
 
- .footer {
+}
+
+ h4 {
+    font-size: 20px;
+
+
+}
+.cart-text {
+    display:none;
+    font-size: 14px;
+    font-weight: bold;
+}
+  
+.footer {
     width: 100%;
     display: block;
     background-color: rgb(17, 50, 25);
