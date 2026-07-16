@@ -10,6 +10,7 @@
 
  body {
      font-family: Jomhuria;
+     background-color: rgb(248, 246, 242);
  }
 
  header {
@@ -25,7 +26,7 @@
      direction: rtl;
      align-items: center;
      height: 120px;
-     background-color: white;
+     background-color: rgba(255, 255, 255, 0.998);
      width: 100%;
 
 
@@ -146,6 +147,13 @@
 
  }
 
+ .title {
+     color: rgb(18, 45, 82);
+     text-align: center;
+     margin-top: 150px;
+
+ }
+
  .books {
      display: flex;
      flex-wrap: wrap;
@@ -153,6 +161,17 @@
      justify-content: center;
      padding: 40px 20px;
      z-index: 100;
+ }
+
+ .book-card {
+     width: 250px;
+     flex-shrink: 0;
+     background-color: rgb(30, 50, 78);
+     color: rgb(241, 240, 231);
+     border: 0px;
+     padding: 20px;
+     text-align: center;
+     border-radius: 20px;
  }
 
  .book-card {
@@ -181,29 +200,35 @@
      margin-bottom: 15px;
      transition: all 0.3s ease;
 
+     h3 {
+         font-size: 25px;
+         color: whitesmoke;
+     }
+
+     h3 {
+         font-size: 25px;
+     }
+
+     h4 {
+         font-size: 20px;
+         color: whitesmoke;
+     }
  }
 
- h3 {
-     font-size: 25px;
-
- }
-
- h4 {
-     font-size: 20px;
 
 
- }
 
  .cart-text {
      display: none;
      font-size: 14px;
      font-weight: bold;
+     color: whitesmoke;
  }
 
  .footer {
      width: 100%;
      display: block;
-     background-color: rgb(9, 28, 55);
+     background-color: white;
      color: rgb(245, 245, 245);
      margin-top: 500px;
      flex: 1;
@@ -211,48 +236,4 @@
      padding: 30px;
      top: 20px;
      width: 100%;
- }
-
- @media (max-width: 768px) {
-
-     #nav {
-         position: sticky;
-         height: auto;
-         flex-direction: column;
-         align-items: center;
-         gap: 15px;
-         padding: 15px;
-     }
-
-     .nav {
-         height: auto;
-         font-size: 60px;
-     }
-
-     .links {
-         position: static;
-         transform: none;
-         display: flex;
-         justify-content: center;
-         flex-wrap: wrap;
-         gap: 10px 25px;
-         font-size: 30px;
-     }
-
-     .icons {
-         position: static;
-         padding-top: 0;
-         font-size: 25px;
-     }
-
-     .search {
-         display: flex;
-         gap: 30px;
-     }
-
-     .footer {
-         font-size: 14px;
-         padding: 20px;
-         margin-top: 50px;
-     }
  }
