@@ -176,17 +176,7 @@
      border-radius: 20px;
  }
 
- .book-card {
-     width: 250px;
-     flex-shrink: 0;
-     background-color: rgba(49, 63, 32, 0.728);
-     color: rgb(241, 240, 231);
-     border: 0px;
-     padding: 20px;
-     text-align: center;
-     border-radius: 20px;
 
- }
 
  .book-card:hover {
      box-shadow: 0 10px 20px rgba(49, 63, 32, 0.792);
