@@ -10,7 +10,8 @@
 
 body {
     font-family: Jomhuria;
-    overflow: hidden;
+    background-color: rgb(248, 246, 242);
+
 }
 
 header {
@@ -148,10 +149,9 @@ main {
 }
 
 .horror {
-    font-family: Aldhabi;
-    font-size: 80px;
+    margin-top: 150px;
     text-align: center;
-    color: rgb(49, 63, 32);
+    color: rgb(18, 45, 82);
 }
 
 .books {
@@ -166,7 +166,7 @@ main {
 .book-card {
     width: 250px;
     flex-shrink: 0;
-    background-color: rgb(49, 63, 32);
+    background-color: rgb(30, 50, 78);
     color: rgb(241, 240, 231);
     border: 0px;
     padding: 20px;
@@ -193,6 +193,7 @@ main {
 
 h3 {
     font-size: 25px;
+    color: whitesmoke;
 
 }
 
@@ -206,6 +207,7 @@ h3 {
     display: none;
     font-size: 14px;
     font-weight: bold;
+    color: whitesmoke;
 }
 
 
