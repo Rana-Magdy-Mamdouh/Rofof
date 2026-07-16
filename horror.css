@@ -149,10 +149,21 @@ main {
 
 }
 
-.horror {
-    margin-top: 150px;
+.section-title {
     text-align: center;
-    color: rgb(18, 45, 82);
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.section-title h2 {
+    background: whitesmoke;
+    font-size: 32px;
+    border-radius: 50px;
+    border: 2px solid rgb(18, 45, 82);
+    font-weight: bold;
+    padding: 10px 60px;
 }
 
 .books {

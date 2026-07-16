@@ -148,3 +148,103 @@ main {
     font-family: Jomhuria;
 
 }
+
+.section-title {
+    text-align: center;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.section-title h2 {
+    background: whitesmoke;
+    font-size: 32px;
+    border-radius: 50px;
+    border: 2px solid rgb(18, 45, 82);
+    font-weight: bold;
+    padding: 10px 60px;
+}
+
+.books {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 20px;
+    z-index: 100;
+}
+
+.book-card {
+    width: 250px;
+    flex-shrink: 0;
+    background-color: rgb(30, 50, 78);
+    color: rgb(241, 240, 231);
+    border: 0px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+
+
+}
+
+.book-card:hover {
+    box-shadow: 0 10px 20px rgba(49, 63, 32, 0.792);
+    border-color: rgba(49, 63, 32, 0.815);
+    transform: translateY(-10px);
+}
+
+.book-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+
+}
+
+h3 {
+    font-size: 25px;
+    color: whitesmoke;
+
+}
+
+.price {
+    display: block;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cart-text {
+    display: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.cart-btn {
+    border: none;
+    border-radius: 8px;
+    color: rgb(18, 45, 82);
+    padding: 10px 15px;
+}
+
+.book-card h4 {
+    font-size: 20px;
+    color: rgb(241, 240, 231);
+}
+
+.footer {
+    width: 100%;
+    display: block;
+    background-color: rgb(17, 50, 25);
+    color: rgb(245, 245, 245);
+    margin-top: 500px;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    top: 20px;
+    width: 100%;
+}
