@@ -97,12 +97,52 @@ body {
 
 }
 
+
+.sign{
+    background-color:rgb(17, 50, 25);
+    width: 50%;
+    border-radius: 20px;
+    margin: 100px auto;
+    padding:30px;
+}
+
+.sign .title{  font-style: oblique;
+    font-family: Aldhabi;
+    color: rgb(245, 245, 245);
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.sign label{color:rgb(245, 245, 245);
+            font-size: 20px;
+}
+.sign input{
+    width: 100%;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.sign button{
+    border-radius: 20px; 
+    
+    font-size: large;
+    color: rgb(17, 50, 25);
+    margin-top: 20px;
+   margin-right: 600px;
+   height:30px;
+   width: 100px;
+
+
+}
+
 .footer {
     width: 100%;
     display: block;
     background-color: rgb(17, 50, 25);
     color: rgb(245, 245, 245);
-    margin-top: 500px;
+    margin-top: 45px;
     flex: 1;
     text-align: center;
     padding: 30px;
