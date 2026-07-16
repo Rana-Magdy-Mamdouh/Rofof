@@ -10,6 +10,7 @@
 
 body {
     font-family: Jomhuria;
+    background-color: rgb(248, 246, 242) ;
 }
 
 header {
@@ -19,13 +20,13 @@ header {
     z-index: 1000;
 
 }
-
+  
 nav {
     display: flex;
     direction: rtl;
     align-items: center;
     height: 120px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.998);
     width: 100%;
 
 
@@ -145,6 +146,12 @@ main {
     font-family: Jomhuria;
 
 }
+.title{
+    color:rgb(18, 45, 82);
+    text-align: center;
+    margin-top: 150px;
+ 
+}
 .books {
     display: flex;
     flex-wrap: wrap;
@@ -157,7 +164,7 @@ main {
 .book-card {
     width: 250px;
     flex-shrink: 0;
-    background-color: rgba(49, 63, 32, 0.728);
+    background-color:   rgb(30, 50, 78);
     color: rgb(241, 240, 231);
     border: 0px;
     padding: 20px;
@@ -184,11 +191,13 @@ main {
 
 h3 {
     font-size: 25px;
+    color: whitesmoke;
 
 }
 
 h4 {
     font-size: 20px;
+    color: whitesmoke;
 
 
 }
@@ -197,12 +206,13 @@ h4 {
     display: none;
     font-size: 14px;
     font-weight: bold;
+    color: whitesmoke;
 }
 
 .footer {
     width: 100%;
     display: block;
-    background-color:  rgb(9, 28, 55) ;
+    background-color:    white;
     color: rgb(245, 245, 245);
     margin-top: 500px;
     flex: 1;
