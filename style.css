@@ -416,7 +416,7 @@ footer {
     .imgb {
         margin-top: 20px;
         width: 95%;
-        position: absolute;
+        position: relative;
 
     }
 
