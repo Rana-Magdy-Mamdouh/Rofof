@@ -28,7 +28,6 @@ header {
 
 nav {
     display: flex;
-
     align-items: center;
     height: 120px;
     background-color: white;
@@ -110,11 +109,7 @@ nav {
     margin-right: 100px; 
 
 }
-.back{width: 100%;
-    padding-right: 50px;
-    border-radius: 20px;
-    
-}
+
 
 #books img{
     border-radius: 20px;
@@ -123,7 +118,7 @@ nav {
     padding: 20px;
     }
 
-.cards{background-color:rgb(226, 207, 167);
+.cards{ background-color: rgb(30, 50, 78);
     border-radius: 20px;
     padding: 10px;
     display: flex;
@@ -145,7 +140,7 @@ nav {
 }
 
  .section1 h6,.section2 h6,.section3 h6,.section4 h6{text-align: center;
-    color:rgb(27,42,65);
+   color: rgb(241, 240, 231);
     font-size: 25px;
     
  } 
@@ -154,7 +149,7 @@ nav {
 
  .cards i{display: block;
     text-align: center;
-    color:rgb(47,64,91); 
+    color: rgb(241, 240, 231);
     padding: 10px;
     }
 
@@ -177,4 +172,76 @@ nav {
     padding: 30px;
     top: 20px;
     width: 100%;
+}
+@media(max-width:780px)
+{
+     nav {
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .logo {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 150px;
+        height: auto;
+
+    }
+
+    .navlinks {
+        margin: 20px 0;
+    }
+
+    .navlinks ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        font-size: 18px;
+    }
+
+    .icons {
+        margin: 15px 0;
+        gap: 20px;
+        font-size: 22px;
+    }
+
+    #title{padding-top: 50px;
+            text-align: center;
+            font-size: 30px;
+    }
+
+    #books img{
+    width: 230px;
+    height: 250px;
+    }
+
+    .cards{ 
+    padding: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom:50px;
+    }
+
+    .section1,.section2,.section3,.section4 {
+    padding: 15px;
+    display: inline;
+    margin-right:300px;
+    margin-bottom: 40px;
+    
+
+}
+
+.section1 div,.section2 div,.section3 div,.section4 div {
+    width:50%;
+    margin-right:150px;
+    gap: 20;
+
+}
+
 }
