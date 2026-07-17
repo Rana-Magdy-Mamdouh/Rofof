@@ -248,7 +248,7 @@ main {
 
 .book-card {
     width: 220px;
-    background: whitesmoke;
+    background: rgb(252, 251, 250);
     border-radius: 15px;
     padding: 15px;
     text-align: center;
