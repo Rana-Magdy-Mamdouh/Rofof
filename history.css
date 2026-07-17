@@ -1,4 +1,4 @@
- * {
+* {
     margin: 0;
     padding: 0;
 }
@@ -10,6 +10,9 @@
 
 body {
     font-family: Jomhuria;
+    background-color: rgb(248, 246, 242);
+    overflow-x: hidden;
+
 }
 
 header {
@@ -22,7 +25,7 @@ header {
 
 nav {
     display: flex;
-    direction: rtl;
+
     align-items: center;
     height: 120px;
     background-color: white;
@@ -144,16 +147,4 @@ main {
     text-decoration: none;
     font-family: Jomhuria;
 
-}
-.footer {
-    width: 100%;
-    display: block;
-    background-color:rgb(9, 28, 55)  ;
-    color: rgb(245, 245, 245);
-    margin-top: 500px;
-    flex: 1;
-    text-align: center;
-    padding: 30px;
-    top: 20px;
-    width: 100%;
 }

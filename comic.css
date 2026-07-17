@@ -10,6 +10,10 @@
 
 body {
     font-family: Jomhuria;
+
+    background-color: rgb(248, 246, 242);
+    overflow-x: hidden;
+
 }
 
 header {
@@ -143,12 +147,5 @@ main {
     cursor: pointer;
     text-decoration: none;
     font-family: Jomhuria;
-
-}
-
-.categories {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 
 }
