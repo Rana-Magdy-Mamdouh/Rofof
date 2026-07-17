@@ -148,3 +148,262 @@ main {
     font-family: Jomhuria;
 
 }
+
+.section-title {
+    text-align: center;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.section-title h2 {
+    background: whitesmoke;
+    font-size: 32px;
+    border-radius: 50px;
+    border: 2px solid rgb(18, 45, 82);
+    font-weight: bold;
+    padding: 10px 60px;
+}
+
+.books {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 20px;
+    z-index: 100;
+}
+
+.book-card {
+    width: 250px;
+    flex-shrink: 0;
+    background-color: rgb(30, 50, 78);
+    color: rgb(241, 240, 231);
+    border: 0px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+
+
+}
+
+.book-card:hover {
+    box-shadow: 0 10px 20px rgba(49, 63, 32, 0.792);
+    border-color: rgba(49, 63, 32, 0.815);
+    transform: translateY(-10px);
+}
+
+.book-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+
+}
+
+h3 {
+    font-size: 25px;
+    color: whitesmoke;
+
+}
+
+.price {
+    display: block;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cart-text {
+    display: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.cart-btn {
+    border: none;
+    border-radius: 8px;
+    color: rgb(18, 45, 82);
+    padding: 10px 15px;
+}
+
+.book-card h4 {
+    font-size: 20px;
+    color: rgb(241, 240, 231);
+}
+
+footer {
+    background-color: white;
+    color: rgb(18, 45, 82);
+    padding: 40px 60px;
+}
+
+.footer-contanier {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-section {
+    width: 40%;
+}
+
+.footer-section h2,
+.footer-section h3 {
+    margin-bottom: 15px;
+    color: rgb(18, 45, 82);
+}
+
+.footer-section p {
+    line-height: 1.8;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: rgb(18, 45, 82);
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: rgb(45, 90, 140);
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    color: rgb(18, 45, 82);
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: rgb(45, 90, 140);
+    transform: translateY(-3px);
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 35px;
+    padding-top: 20px;
+    border-top: 1px solid rgb(220, 220, 220);
+    font-size: 14px;
+    color: rgb(18, 45, 82);
+}
+
+@media(max-width:780px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .logo {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 150px;
+        height: auto;
+
+    }
+
+    .navlinks {
+        margin: 20px 0;
+    }
+
+    .navlinks ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        font-size: 18px;
+    }
+
+    .icons {
+        margin: 15px 0;
+        gap: 20px;
+        font-size: 22px;
+    }
+
+
+    main {
+        padding-top: 220px;
+    }
+
+
+    .section-title {
+        margin-top: 220px;
+        margin-bottom: 20px;
+    }
+
+    .section-title h2 {
+        font-size: 24px;
+        padding: 8px 35px;
+    }
+
+
+    .books {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .book-card {
+        width: 150px;
+    }
+
+    .book-card img {
+        height: 200px;
+    }
+
+    .book-card h4 {
+        font-size: 17px;
+    }
+
+    .price {
+        font-size: 16px;
+    }
+
+    .footer-contanier {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .copyright {
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+    footer {
+        padding: 30px 20px;
+    }
+
+}
