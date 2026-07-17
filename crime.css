@@ -149,12 +149,24 @@
 
  }
 
- .title {
-     color: rgb(18, 45, 82);
-     text-align: center;
-     margin-top: 150px;
+  .section-title {
+    
+    text-align: center;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
 
- }
+.section-title h2 {
+    background: whitesmoke;
+    font-size: 32px;
+    border-radius: 50px;
+    border: 2px solid rgb(18, 45, 82);
+    font-weight: bold;
+    padding: 10px 60px;
+}
+ 
 
  .books {
      display: flex;
@@ -168,7 +180,7 @@
  .book-card {
      width: 250px;
      flex-shrink: 0;
-     background-color: rgba(30, 50, 78, 0.936);
+     background-color: rgb(30, 50, 78);
      color: rgb(241, 240, 231);
      border: 0px;
      padding: 20px;
@@ -204,6 +216,8 @@
      h4 {
          font-size: 20px;
          color: whitesmoke;
+          display: block;
+    
      }
  }
 
@@ -215,6 +229,7 @@
      font-size: 14px;
      font-weight: bold;
      color: whitesmoke;
+      
  }
 
   footer {
