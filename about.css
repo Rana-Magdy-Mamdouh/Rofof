@@ -652,3 +652,27 @@
     }
 
 }
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation:portrait){
+
+    .about-content{
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .about-info h2{
+        font-size: 38px;
+    }
+
+    .about-info p{
+        font-size: 24px;
+        line-height: 1.8;
+        text-align: center;
+    }
+
+    .pho img{
+        width: 300px;
+        height: 300px;
+    }
+
+}
