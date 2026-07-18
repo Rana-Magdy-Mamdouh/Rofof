@@ -63,7 +63,7 @@ nav {
                 gap: 20px; 
                 margin-left: auto; 
                 font-size: 30px; 
-                margin-left: 20px; } 
+                margin-right:1100px; } 
                 .icons a { color: rgb(18, 45, 82); }
                  .sign{ background-color: rgb(18, 45, 82);
                      width: 30%; 
@@ -144,6 +144,11 @@ nav {
         height: auto;
 
     }
+     .icons{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+}
 
     .sign{
         width: 60%;
