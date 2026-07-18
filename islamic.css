@@ -100,54 +100,76 @@ main {
     padding-top: 80px;
 }
 
-.imgb {
+.categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: rgb(252, 251, 250);
     width: 90%;
-    height: auto;
-    object-fit: cover;
-    overflow: hidden;
-    margin: 100px auto 30px;
-    border: 3px solid rgb(18, 45, 82);
-    border-radius: 50px;
+    margin: 40px auto;
+    padding: 25px 20px;
+    border-radius: 20px;
+    gap: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    direction: rtl;
 
 }
 
-.imgb img {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    display: block;
-
-
-}
-
-.imgb-text {
-    position: absolute;
-    top: 50%;
-    right: 10%;
-    z-index: 10;
-    transform: translateY(-50%);
-    color: rgb(18, 45, 82);
-}
-
-.imgb-text h1 {
-    font-size: 40px;
-    margin-bottom: 20px;
-    line-height: 1.5;
-    font-family: Jomhuria;
-}
-
-.shop-btn {
-    padding: 15px 50px;
-    font-size: 25px;
-    border: none;
-    border-radius: 30px;
-    background-color: rgb(18, 45, 82);
-    color: white;
-    cursor: pointer;
+.category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
     text-decoration: none;
-    font-family: Jomhuria;
+    flex: 1;
+    transition: transform 0.2s ease;
+    flex-direction: column;
 
 }
+
+.category-item:hover {
+    transform: translateY(-5px);
+}
+
+.icon-wrapper {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: rgb(245, 237, 230);
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+}
+
+.category-item:hover .icon-wrapper {
+    background-color: rgb(235, 220, 208);
+
+}
+
+.icon-wrapper a {
+    color: rgb(61, 52, 46);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+.category-text {
+    color: rgb(18, 45, 82);
+    font-size: 16px;
+    font-weight: 600;
+    flex-direction: column;
+    font-family: 'Cairo', sans-serif;
+}
+
+
 
 .section-title {
     text-align: center;
@@ -347,6 +369,21 @@ footer {
         padding-top: 220px;
     }
 
+    .categories {
+        display: grid;
+        gap: 15px;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 20px 10px;
+    }
+
+    .icon-wrapper {
+        width: 45px;
+        height: 45px;
+    }
+
+    .category-text {
+        font-size: 13px;
+    }
 
     .section-title {
         margin-top: 220px;
