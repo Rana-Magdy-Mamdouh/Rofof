@@ -509,3 +509,105 @@ footer {
 
 
 }
+
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation:portrait) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .logo img {
+        width: 180px;
+        height: auto;
+    }
+
+    .navlinks {
+        margin: 15px 0;
+    }
+
+    .navlinks ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 18px;
+        font-size: 22px;
+    }
+
+    .icons {
+        margin: 10px 0;
+        gap: 20px;
+        font-size: 26px;
+    }
+
+    main {
+        padding-top: 220px;
+    }
+
+    .imgb {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    .imgb img {
+        height: 350px;
+    }
+
+    .imgb-text {
+        right: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .imgb-text h1 {
+        font-size: 30px;
+    }
+
+    .shop-btn {
+        font-size: 20px;
+        padding: 10px 25px;
+    }
+
+    .categories {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .books {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        gap: 25px;
+    }
+
+    .book-card {
+        width: 180px;
+    }
+
+    .book-card img {
+        height: 230px;
+    }
+
+    .footer-contanier {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
