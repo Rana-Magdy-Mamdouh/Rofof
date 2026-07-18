@@ -373,3 +373,282 @@
      font-size: 14px;
      color: rgb(18, 45, 82);
  }
+ @media (max-width:780px){
+
+    nav{
+        flex-direction: column;
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo img{
+        width: 150px;
+        height: auto;
+    }
+
+    .navlinks{
+        margin: 20px 0;
+    }
+
+    .navlinks ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        font-size: 18px;
+    }
+
+    .icons{
+        margin: 15px 0;
+        gap: 20px;
+        font-size: 22px;
+    }
+
+    .about{
+        width: 90%;
+        margin: 220px auto 30px;
+        padding: 30px 20px;
+    }
+
+    .about-text h1{
+        font-size: 36px;
+    }
+
+    .about-text p{
+        font-size: 28px;
+        line-height: 1.8;
+    }
+
+    .pho{
+        display: flex;
+        justify-content: center;
+    }
+
+    .pho img{
+        width: 240px;
+        height: 240px;
+    }
+
+    .box{
+        width: 90%;
+        margin: 25px auto;
+    }
+
+    .box p{
+        font-size: 22px;
+    }
+
+    .features{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card{
+        width: 85%;
+    }
+
+    .card h3{
+        font-size: 24px;
+    }
+
+    .card p{
+        font-size: 20px;
+    }
+
+    .footer-contanier{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-section{
+        width: 100%;
+    }
+
+    .social-icons{
+        justify-content: center;
+    }
+
+    footer{
+        padding: 30px 20px;
+    }
+
+    .copyright{
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+
+    nav{
+        flex-direction: column;
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo img{
+        width: 180px;
+    }
+
+    .navlinks{
+        margin: 20px 0;
+    }
+
+    .navlinks ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        font-size: 20px;
+    }
+
+    .icons{
+        margin: 15px 0;
+        gap: 20px;
+        font-size: 24px;
+    }
+
+    .about{
+        width: 90%;
+        margin: 220px auto 40px;
+    }
+
+    .about-text h1{
+        font-size: 45px;
+    }
+
+    .about-text p{
+        font-size: 36px;
+    }
+
+    .pho img{
+        width: 320px;
+        height: 320px;
+    }
+
+    .box{
+        width: 70%;
+    }
+
+    .box p{
+        font-size: 28px;
+    }
+
+    .features{
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .card{
+        width: 260px;
+    }
+
+    .footer-contanier{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-section{
+        width: 100%;
+    }
+
+    .social-icons{
+        justify-content: center;
+    }
+
+    footer{
+        padding: 30px 20px;
+    }
+
+    .copyright{
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+}.about-content{
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    direction: rtl;
+}
+
+.about-info{
+    flex: 1;
+    width: 100%;
+}
+
+.about-info h2{
+    font-size: 42px;
+    color: rgb(18,45,82);
+    margin-bottom: 20px;
+}
+
+.about-info p{
+    font-size: 28px;
+    line-height: 2;
+    color: rgb(18,45,82);
+    text-align: justify;
+}
+
+.pho{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pho img{
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    box-shadow: 0 12px 25px rgba(0,0,0,.15);
+}
+
+@media (max-width:780px){
+
+    .about-content{
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .about-info{
+        width: 100%;
+    }
+
+    .about-info h2{
+        font-size: 34px;
+    }
+
+    .about-info p{
+        font-size: 22px;
+        line-height: 1.8;
+        text-align: center;
+    }
+
+    .pho img{
+        width: 250px;
+        height: 250px;
+    }
+
+}
