@@ -407,3 +407,99 @@ footer {
     }
 
 }
+
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation:portrait) {
+
+    nav {
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .logo {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 150px;
+        height: auto;
+
+    }
+
+    .navlinks {
+        margin: 20px 0;
+    }
+
+    .navlinks ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        font-size: 18px;
+    }
+
+    .icons {
+        margin: 15px 0;
+        gap: 20px;
+        font-size: 22px;
+    }
+
+
+    main {
+        padding-top: 220px;
+    }
+
+    .section-title {
+        margin-top: 220px;
+        margin-bottom: 20px;
+    }
+
+    .section-title h2 {
+        font-size: 24px;
+        padding: 8px 35px;
+    }
+
+
+
+    .books {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        gap: 25px;
+    }
+
+    .book-card {
+        width: 180px;
+    }
+
+    .book-card img {
+        height: 230px;
+    }
+
+    .footer-contanier {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .copyright {
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+    footer {
+        padding: 30px 20px;
+    }
+
+
+}
