@@ -372,7 +372,7 @@ footer {
     color: rgb(18, 45, 82);
 }
 
-@media(max-width:767px) {
+@media(max-width:780px) {
     nav {
         flex-direction: column;
         height: auto;
@@ -507,20 +507,5 @@ footer {
         padding: 30px 20px;
     }
 
-
-}
-
-@media screen and (min-width:768px) and (max-width:1024px) and (orientation:portrait) {
-
-    .books {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-        justify-items: center;
-    }
-
-    .book-card {
-        width: 180px;
-    }
 
 }
