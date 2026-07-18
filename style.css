@@ -509,3 +509,18 @@ footer {
 
 
 }
+
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation:portrait) {
+
+    .books {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-items: center;
+    }
+
+    .book-card {
+        width: 180px;
+    }
+
+}
