@@ -372,7 +372,7 @@ footer {
     color: rgb(18, 45, 82);
 }
 
-@media(min-width:780px) and (max-width:1024px) and (orientation: portrait) {
+@media(max-width:767px) {
     nav {
         flex-direction: column;
         height: auto;
