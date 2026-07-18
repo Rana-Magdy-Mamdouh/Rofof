@@ -305,6 +305,77 @@ footer {
     font-size: 14px;
     color: rgb(18, 45, 82);
 }
+.categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: rgb(252, 251, 250);
+    width: 90%;
+    margin: 40px auto;
+    padding: 25px 20px;
+    border-radius: 20px;
+    gap: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    direction: rtl;
+
+}
+
+.category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    text-decoration: none;
+    flex: 1;
+    transition: transform 0.2s ease;
+    flex-direction: column;
+
+}
+
+.category-item:hover {
+    transform: translateY(-5px);
+}
+
+.icon-wrapper {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: rgb(245, 237, 230);
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+}
+
+.category-item:hover .icon-wrapper {
+    background-color: rgb(235, 220, 208);
+
+}
+
+.icon-wrapper a {
+    color: rgb(61, 52, 46);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+.category-text {
+    color: rgb(18, 45, 82);
+    font-size: 16px;
+    font-weight: 600;
+    flex-direction: column;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+
 footer {
     background-color: white;
     color: rgb(18, 45, 82);
@@ -374,7 +445,6 @@ footer {
     font-size: 14px;
     color: rgb(18, 45, 82);
 }
-
 @media(max-width:780px) {
     nav {
         flex-direction: column;
@@ -416,6 +486,21 @@ footer {
         padding-top: 220px;
     }
 
+    .categories {
+        display: grid;
+        gap: 15px;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 20px 10px;
+    }
+
+    .icon-wrapper {
+        width: 45px;
+        height: 45px;
+    }
+
+    .category-text {
+        font-size: 13px;
+    }
 
     .section-title {
         margin-top: 220px;
@@ -478,3 +563,100 @@ footer {
 
 
 }
+
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation:portrait) {
+
+    nav {
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .logo {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 150px;
+        height: auto;
+
+    }
+
+    .navlinks {
+        margin: 20px 0;
+    }
+
+    .navlinks ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        font-size: 18px;
+    }
+
+    .icons {
+        margin: 15px 0;
+        gap: 20px;
+        font-size: 22px;
+    }
+
+
+    main {
+        padding-top: 220px;
+    }
+
+    .section-title {
+        margin-top: 220px;
+        margin-bottom: 20px;
+    }
+
+    .section-title h2 {
+        font-size: 24px;
+        padding: 8px 35px;
+    }
+
+
+
+    .books {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        gap: 25px;
+    }
+
+    .book-card {
+        width: 180px;
+    }
+
+    .book-card img {
+        height: 230px;
+    }
+
+    .footer-contanier {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .copyright {
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+    footer {
+        padding: 30px 20px;
+    }
+
+
+}
+ 
