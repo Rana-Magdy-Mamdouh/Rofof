@@ -332,15 +332,17 @@ footer {
     color: rgb(18, 45, 82);
 }
 
-@media(max-width:780px) {
+@media(max-width:768px) {
     * {
-    
-    box-sizing: border-box;
-}
-    body{
+        box-sizing: border-box;
+    }
+
+    body {
         width: 100%;
         overflow-x: hidden;
+
     }
+
     nav {
         flex-direction: column;
         height: auto;
