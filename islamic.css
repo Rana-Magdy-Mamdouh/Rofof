@@ -329,6 +329,10 @@ footer {
 }
 
 @media(max-width:780px) {
+    * {
+        box-sizing: border-box;
+    }
+
     nav {
         flex-direction: column;
         height: auto;
