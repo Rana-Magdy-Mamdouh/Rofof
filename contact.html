@@ -44,8 +44,31 @@
             </div>
         </nav>
     </header>
-    <h1 class="title">للتواصل معنا</h1>
-
+    
+    <div class="section-title">
+            <h2>للتواصل معنا</h2>
+    </div>
+    <div class="contact-container">
+        <form action="#" method="post" class="contact-form">
+            <div class="form-group">
+                <label for="name">الاسم بالكامل</label>
+                <input type="text" id="name" name="name" required placeholder="أدخل اسمك هنا">
+            </div>
+            <div class="form-group">
+                <label for="email">البريد الالكتروني</label>
+                <input type="email" id="email" name="email" required placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="supject">الموضوع</label>
+                <input type="text" id="supject" name="supject"placeholder="ما هو موضوع رسالتك؟">
+            </div>
+            <div class="form-group">
+                <label for="message">الرسالة</label>
+                <textarea id="message" name="message" rows="5" required placeholder="اكتب رسالتك هنا"></textarea>
+            </div>
+            <button type="submit" class="submit-button">ارسال الرسالة</button>
+        </form>
+    </div>
 
     <footer>
         <div class="footer-contanier">
