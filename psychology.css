@@ -84,6 +84,7 @@
 
              .logo img { width: 150px;
                  height: auto; } 
+                 
              .navlinks { margin: 20px 0; } 
              .navlinks ul { flex-wrap: wrap; 
                  justify-content: center; 
