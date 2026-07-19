@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 
 @font-face {
@@ -332,7 +332,11 @@ footer {
     color: rgb(18, 45, 82);
 }
 
-@media(max-width:768px) {
+@media(max-width:780px) {
+    * {
+    
+    box-sizing: border-box;
+}
     body{
         width: 100%;
         overflow-x: hidden;
@@ -516,8 +520,7 @@ footer {
     }
 
     .book-card {
-        width: 100%;
-        max-width: 180px;
+        width: 180px;
     }
 
     .book-card img {
