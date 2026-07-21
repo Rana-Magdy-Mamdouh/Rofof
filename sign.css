@@ -258,9 +258,9 @@ footer {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1431px) {
     body {
-        min-height: 100vh;
+        min-height:100hv;
         display: flex;
         flex-direction: column;
     }
